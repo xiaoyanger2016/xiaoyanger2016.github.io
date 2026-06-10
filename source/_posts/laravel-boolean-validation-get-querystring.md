@@ -1,7 +1,7 @@
 ---
 title: 为什么 Laravel 的 boolean 校验会拒绝字符串 "true"？一次 GET 请求布尔值的踩坑实录
 date: 2026-06-10 15:04:57
-author: xiaoyanger2016
+author: blog-author
 categories:
   - 开发笔记
 tags:

@@ -37,9 +37,11 @@ site:
 #! Authors Configs
 #！ @docs https://aurora.tridiamond.tech/guide/authors.html
 #! ---------------------------------------------------------------
+# key 必须是 blog-author —— Aurora 首页博主资料卡固定读取 api/authors/blog-author.json
 authors:
-  xiaoyanger2016:
+  blog-author:
     name: xiaoyanger2016
+    slug: blog-author        # 显式 slug → 生成 api/authors/blog-author.json（SPA 首页卡固定读这个）
     avatar:
     link: https://github.com/xiaoyanger2016
     description: '记录日常开发的踩坑与经验'

@@ -30,7 +30,7 @@ $ARGUMENTS
    ---
    title: <中文标题>
    date: <今天日期，格式 2026-06-10 15:04:05，用 `date "+%Y-%m-%d %H:%M:%S"` 取>
-   author: xiaoyanger2016
+   author: blog-author      # 固定用 blog-author（对应 _config.aurora.yml，显示名是 xiaoyanger2016）
    categories:
      - 开发笔记
    tags:
