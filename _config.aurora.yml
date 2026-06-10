@@ -65,7 +65,7 @@ menu:
 theme:
   dark_mode: true
   profile_shape: diamond # support `circle`, `diamond`, `rounded`
-  feature: true
+  feature: false   # 文章较少时关掉置顶大卡，让文章直接进首页列表（≥3 篇可改回 true 用轮播）
   gradient:
     color_1: '#24c6dc'
     color_2: '#5433ff'
